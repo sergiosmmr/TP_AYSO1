@@ -1,0 +1,31 @@
+cd repogit/TP_AYSO1/
+ls -l
+cat datos_usuario.txt 
+ls -l
+cd ..
+chmod 765 TP_AYSO1/
+cd TP_AYSO1/
+ls -l
+cd ..
+ls -l
+cd TP_AYSO1/
+git status
+git commit -m "ADD: agregado 1er
+ejercicio sobre datos_usuarios.txt"
+git status
+git push
+grep "model name" /proc/cpuinfo | head -n1
+grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt 
+git add .
+git commit -m "feat: Añadiendo información de CPU”"
+git push
+cat <<EOF >> README.md
+Alumno: sergio martinez
+División: 318 Turno: Noche
+EOF
+
+git add README.md datos_usuario.txt
+git commit -m "ADD: Añadiendo Readme y datos de usuario"
+git push
+history -a
